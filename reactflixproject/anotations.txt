@@ -1,0 +1,1 @@
+1° configurar o sass no webpack.dev.js da pasta react-scrips
