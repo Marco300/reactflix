@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Login from './Login';
+
 import '../../style/style.css';
 import '../../style/reset.css';
 
@@ -7,10 +9,9 @@ export default class Header extends Component{
         return(
             <div className="bg-img">
                 <div className="component-container">
-                    <form>
-                        <label>Login: </label>
-                        <input type="text" value="" class="input-login" placeholder="Login"/>
-                    </form>
+                    <div className="component-login">
+                        <Login/>
+                    </div>
                 </div>
             </div>
         );

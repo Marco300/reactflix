@@ -7,20 +7,65 @@ html, body {
   height: 100vh;
   background: url("../img/logan1.jpg") center center no-repeat;
   background-size: cover; }
-  .bg-img:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right, #002f4b, #000000);
-    opacity: .6; }
 
 .component-container {
   margin: 0;
   margin-left: 15%;
   margin-right: 15%;
-  padding: 0; }
+  padding: 0;
+  height: 100%; }
+
+.component-login {
+  width: 50%;
+  height: 100%;
+  display: inline-grid;
+  align-items: center; }
+
+.wrapper-login {
+  width: auto; }
+  .wrapper-login img {
+    display: block;
+    width: auto; }
+
+input[type=text] {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; }
+
+input[type=text]:focus,
+input[type=text]:active,
+input[type=password]:focus,
+input[type=password]:active {
+  transition: .1s ease-in-out;
+  border: 2px solid #d83b3b;
+  outline: none; }
+
+input[type=password] {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; }
+
+.btn-login {
+  background-color: transparent;
+  border: 1px solid #d83b3b;
+  color: #d83b3b;
+  padding: 10px;
+  width: 40%;
+  font-size: 15px;
+  transition: .2s ease-in; }
+
+.btn-login:hover,
+.btn-login:focus,
+.btn-login:active {
+  outline: none;
+  background-color: #d83b3b;
+  color: white; }
+
+.wrapper-btn {
+  display: flex;
+  width: 80%;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
